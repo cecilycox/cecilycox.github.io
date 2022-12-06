@@ -1,0 +1,26 @@
+h1 {
+    color:solid black;
+}
+
+img {
+    width: 100%;
+    max-width: 200px;
+    margin:10px;
+}
+
+.card {
+    margin: 5em;
+}
+
+h1 {
+    text-align:center;
+    margin: 1em;
+}
+
+button {
+    margin: 2px;
+}
+
+.draft {
+    color: red;
+}
