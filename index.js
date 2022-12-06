@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('#imovie').addEventListener('click', () => gotoimovie());
     document.querySelector('#garageband').addEventListener('click', () => gotogarageband());
     document.querySelector('#powerpoint').addEventListener('click', () => gotopowerpoint());
-    document.querySelector('#scratch').addEventListener('click', () => gotoscratch());
+    document.querySelector('#padlet').addEventListener('click', () => gotopadlet());
     document.querySelector('#tpack').addEventListener('click', () => gototpack());
     document.querySelector('#reflection').addEventListener('click', () => gotoreflection());
 
@@ -20,7 +20,7 @@ function blankall() {
     document.querySelector('#imoviediv').style.display = 'none';
     document.querySelector('#garagebanddiv').style.display = 'none';
     document.querySelector('#powerpointdiv').style.display = 'none';
-    document.querySelector('#scratchdiv').style.display = 'none';
+    document.querySelector('#padletdiv').style.display = 'none';
     document.querySelector('#tpackdiv').style.display = 'none';
     document.querySelector('#reflectiondiv').style.display = 'none';
     
@@ -30,7 +30,7 @@ function blankall() {
     document.querySelector('#imovie').classList.remove('active');
     document.querySelector('#garageband').classList.remove('active');
     document.querySelector('#powerpoint').classList.remove('active');
-    document.querySelector('#scratch').classList.remove('active');
+    document.querySelector('#padlet').classList.remove('active');
     document.querySelector('#tpack').classList.remove('active');
     document.querySelector('#reflection').classList.remove('active');
 
@@ -66,10 +66,10 @@ function gotopowerpoint() {
     document.querySelector('#powerpoint').classList.add('active');
 }
 
-function gotoscratch() {
+function gotopadlet() {
     blankall();
-    document.querySelector('#scratchdiv').style.display = 'block';
-    document.querySelector('#scratch').classList.add('active');
+    document.querySelector('#padletdiv').style.display = 'block';
+    document.querySelector('#padlet').classList.add('active');
 }
 
 function gototpack() {
