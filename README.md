@@ -1,1 +1,1 @@
-This is a readme file for my class submission website.
+This is a readme file for a class submission website.
