@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('#padlet2').addEventListener('click', () => gotopadlet());
     document.querySelector('#tpack2').addEventListener('click', () => gototpack());
     document.querySelector('#reflection2').addEventListener('click', () => gotoreflection());
-    document.querySelector('#toc2').addEventListener('click', () => gototoc());
 
     gotobio();
 });
