@@ -17,6 +17,9 @@
 <!-------------BUTTON BAR-->
 
             <div class="row justify-content-center">
+                <button class="btn btn-sm btn-outline-primary" id="toc">Table of Contents</button>
+            </div>
+            <div class="row justify-content-center">
                 <button class="btn btn-sm btn-outline-primary active" id="bio">About Me!</button>
                 <button class="btn btn-sm btn-outline-primary" id="tpack">TPACK Summary</button>
                 <button class="btn btn-sm btn-outline-primary" id="reflection">Reflection</button>
@@ -32,7 +35,78 @@
 
             <div class="row justify-content-center">
 
-<!--------------ABOUT ME CARD -->
+
+                <!----------------TABLE OF CONTENTS  -->
+                <div class='card' id='tocdiv'>
+                    <div class="card-body">
+                        <table>
+                            <tr>
+                                <td>
+                                    <p><img id="bio2" src='Cecily.jpg' alt='cecily image'></p>
+                                </td>
+                                <td>
+                                    <p><img id="tpack2" src='tpack.png' alt='tpack image'></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p class="text-center">About Cecily</p>
+                                </td>
+                                <td>
+                                    <p class="text-center">TPACK Summary</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p><img id="reflection2" src='reflection.jpg' alt='cecily image'></p>
+                                </td>
+                                <td>
+                                    <p><img id="kahoot2" src='kahoot.png' alt='kahoot image'></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p class="text-center">Reflection</p>
+                                </td>
+                                <td>
+                                    <p class="text-center">Kahoot!</p>
+                                </td>
+                            </tr>                            <tr>
+                                <td>
+                                    <p><img id="imovie2" src='https://www.apple.com/v/imovie/h/images/overview/icon_imovie_mac__clgq43wv52z6_large.png' alt='cecily image'></p>
+                                </td>
+                                <td>
+                                    <p><img id="garageband2" src='https://www.apple.com/v/mac/garageband/m/images/garageband/icon_hero__dkl6opq1wnma_large.png' alt='tpack image'></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p class="text-center">iMovie</p>
+                                </td>
+                                <td>
+                                    <p class="text-center">Garage Band</p>
+                                </td>
+                            </tr>                            <tr>
+                                <td>
+                                    <p><img id="powerpoint2" src='https://www.itsolutions-inc.com/assets/uploads/news/Animations_in_PowerPoint_Feature.jpg' alt='cecily image'></p>
+                                </td>
+                                <td>
+                                    <p><img id="padlet2" src='padlet.svg' alt='tpack image'></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p class="text-center">PowerPoint</p>
+                                </td>
+                                <td>
+                                    <p class="text-center">Padlet</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                    
+                <!--------------ABOUT ME CARD -->
                 <div class='card' id='aboutmediv'>
                     <img src='Cecily.jpg' class='card-img-top' alt='cecily image'>
                     <div class='card-body'>
@@ -63,6 +137,7 @@
                             about the educational process and the development of young minds.
                         </p>
                     </div>
+                    <button class="btn btn-sm btn-outline-primary" onclick="gototoc()">Return to Table of Contents</button>
                 </div>
                 
 <!--            KAHOOT   -->
@@ -241,6 +316,7 @@
                             </div>
                         </div>
                     </div>
+                    <button class="btn btn-sm btn-outline-primary" onclick="gototoc()">Return to Table of Contents</button>
                 </div>
 
 <!-------       IMOVIE  ------------>
@@ -399,6 +475,7 @@
                             </div>
                         </div>
                     </div>
+                    <button class="btn btn-sm btn-outline-primary" onclick="gototoc()">Return to Table of Contents</button>
                 </div>
 
 <!-------       GARAGE BAND  ------------>
@@ -593,6 +670,7 @@
                             </div>
                         </div>
                     </div>
+                    <button class="btn btn-sm btn-outline-primary" onclick="gototoc()">Return to Table of Contents</button>
                 </div>
 
 <!-------       POWER POINT  ------------>
@@ -774,6 +852,7 @@
 
 
                     </div>
+                    <button class="btn btn-sm btn-outline-primary" onclick="gototoc()">Return to Table of Contents</button>
                 </div>
 
 <!-------       PADLET  ------------>
@@ -920,7 +999,11 @@
                                             </td>
                                         </tr>
                                     </tbody> 
+                                </table>
+                            </div>
+                        </div>
                     </div>
+                    <button class="btn btn-sm btn-outline-primary" onclick="gototoc()">Return to Table of Contents</button>
                 </div>
 
 
@@ -969,6 +1052,7 @@
                         
                         </p>
                     </div>
+                    <button class="btn btn-sm btn-outline-primary" onclick="gototoc()">Return to Table of Contents</button>
                 </div>
 
 
@@ -1021,6 +1105,7 @@
                         more equitable and accessible to my students from diverse backgrounds. I am very grateful for the lessons I learned in this 
                         course and am excited to apply them in my classroom.</p>
                     </div>
+                    <button class="btn btn-sm btn-outline-primary" onclick="gototoc()">Return to Table of Contents</button>
                 </div>
 
             </div>

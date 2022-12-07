@@ -9,6 +9,18 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('#padlet').addEventListener('click', () => gotopadlet());
     document.querySelector('#tpack').addEventListener('click', () => gototpack());
     document.querySelector('#reflection').addEventListener('click', () => gotoreflection());
+    document.querySelector('#toc').addEventListener('click', () => gototoc());
+
+    // table of contents links
+    document.querySelector('#bio2').addEventListener('click', () => gotobio());
+    document.querySelector('#kahoot2').addEventListener('click', () => gotokahoot());
+    document.querySelector('#imovie2').addEventListener('click', () => gotoimovie());
+    document.querySelector('#garageband2').addEventListener('click', () => gotogarageband());
+    document.querySelector('#powerpoint2').addEventListener('click', () => gotopowerpoint());
+    document.querySelector('#padlet2').addEventListener('click', () => gotopadlet());
+    document.querySelector('#tpack2').addEventListener('click', () => gototpack());
+    document.querySelector('#reflection2').addEventListener('click', () => gotoreflection());
+    document.querySelector('#toc2').addEventListener('click', () => gototoc());
 
     gotobio();
 });
@@ -23,6 +35,8 @@ function blankall() {
     document.querySelector('#padletdiv').style.display = 'none';
     document.querySelector('#tpackdiv').style.display = 'none';
     document.querySelector('#reflectiondiv').style.display = 'none';
+    document.querySelector('#tocdiv').style.display = 'none';
+    
     
     // make all buttons inactive
     document.querySelector('#bio').classList.remove('active');
@@ -33,6 +47,7 @@ function blankall() {
     document.querySelector('#padlet').classList.remove('active');
     document.querySelector('#tpack').classList.remove('active');
     document.querySelector('#reflection').classList.remove('active');
+    document.querySelector('#toc').classList.remove('active');
 
 }
 
@@ -82,4 +97,10 @@ function gotoreflection() {
     blankall();
     document.querySelector('#reflectiondiv').style.display = 'block';
     document.querySelector('#reflection').classList.add('active');
+}
+
+function gototoc() {
+    blankall();
+    document.querySelector('#tocdiv').style.display = 'block';
+    document.querySelector('#toc').classList.add('active');
 }
